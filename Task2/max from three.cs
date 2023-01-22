@@ -9,14 +9,18 @@ int numberC = int.Parse(Console.ReadLine());
 if (numberA > numberB & numberA > numberC)
 {
     int max = numberA;
+    Console.Write("max = ");
+    Console.WriteLine(max);
 }
 if (numberB > numberA & numberB > numberC)
 {
     int max = numberB;
+    Console.Write("max = ");
+    Console.WriteLine(max);
 }
-else
+if (numberC > numberA & numberC > numberB)
 {
     int max = numberC;
+    Console.Write("max = ");
+    Console.WriteLine(max);
 }
-Console.Write("max = ");
-Console.WriteLine(max);
