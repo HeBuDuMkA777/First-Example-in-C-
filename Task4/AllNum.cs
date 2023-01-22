@@ -1,10 +1,10 @@
 ﻿Console.Clear(); // Очистили консоль перед выводом ответа
 Console.Write("Введите число N: ");
 int number = int.Parse(Console.ReadLine());
-int reverse = - number;
-while (reverse <= number)
+int first = 2;
+while (first <= number)
 {
-    Console.Write(reverse);
+    Console.Write(first);
     Console.Write(" ");
-    reverse++;
+    first = first + 2;
 }
